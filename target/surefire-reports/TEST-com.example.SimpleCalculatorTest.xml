@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.SimpleCalculatorTest" time="0.041" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.SimpleCalculatorTest" time="0.04" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="maven.user.extensions" value="C:\Users\oa718/.m2/extensions.xml"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="session.topDirectory" value="C:\Users\oa718\OneDrive\Desktop\web\taskCloud"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\oa718\AppData\Local\Temp\surefire15876552664713976473\surefirebooter-20251210151204664_3.jar C:\Users\oa718\AppData\Local\Temp\surefire15876552664713976473 2025-12-10T15-12-02_792-jvmRun1 surefire-20251210151204664_1tmp surefire_0-20251210151204664_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\oa718\AppData\Local\Temp\surefire2196670542754798664\surefirebooter-20251210152234995_3.jar C:\Users\oa718\AppData\Local\Temp\surefire2196670542754798664 2025-12-10T15-22-34_792-jvmRun1 surefire-20251210152234995_1tmp surefire_0-20251210152234995_2tmp"/>
     <property name="maven.project.settings" value="${session.rootDirectory}/.mvn/settings.xml"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\oa718\OneDrive\Desktop\web\taskCloud\target\test-classes;C:\Users\oa718\OneDrive\Desktop\web\taskCloud\target\classes;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\oa718\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\oa718\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\oa718\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\oa718\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
@@ -37,7 +37,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="maven.project.conf" value="${session.rootDirectory}/.mvn"/>
-    <property name="surefire.real.class.path" value="C:\Users\oa718\AppData\Local\Temp\surefire15876552664713976473\surefirebooter-20251210151204664_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\oa718\AppData\Local\Temp\surefire2196670542754798664\surefirebooter-20251210152234995_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -69,8 +69,8 @@
     <property name="maven.user.settings" value="C:\Users\oa718/.m2/settings.xml"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testDivideByZero" classname="com.example.SimpleCalculatorTest" time="0.021"/>
-  <testcase name="testAdd" classname="com.example.SimpleCalculatorTest" time="0.002"/>
+  <testcase name="testDivideByZero" classname="com.example.SimpleCalculatorTest" time="0.02"/>
+  <testcase name="testAdd" classname="com.example.SimpleCalculatorTest" time="0.001"/>
   <testcase name="testSubtract" classname="com.example.SimpleCalculatorTest" time="0"/>
   <testcase name="testDivide" classname="com.example.SimpleCalculatorTest" time="0.001"/>
   <testcase name="testMultiply" classname="com.example.SimpleCalculatorTest" time="0.001"/>
