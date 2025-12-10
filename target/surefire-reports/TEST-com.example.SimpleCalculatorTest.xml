@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.SimpleCalculatorTest" time="0.041" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="maven.user.extensions" value="C:\Users\oa718/.m2/extensions.xml"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\oa718\OneDrive\Desktop\web\taskCloud\target\test-classes;C:\Users\oa718\OneDrive\Desktop\web\taskCloud\target\classes;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\oa718\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\oa718\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\oa718\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\oa718\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="maven.user.toolchains" value="C:\Users\oa718/.m2/toolchains.xml"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="maven.repo.central" value="https://repo.maven.apache.org/maven2"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="session.topDirectory" value="C:\Users\oa718\OneDrive\Desktop\web\taskCloud"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\oa718\AppData\Local\Temp\surefire15876552664713976473\surefirebooter-20251210151204664_3.jar C:\Users\oa718\AppData\Local\Temp\surefire15876552664713976473 2025-12-10T15-12-02_792-jvmRun1 surefire-20251210151204664_1tmp surefire_0-20251210151204664_2tmp"/>
+    <property name="maven.project.settings" value="${session.rootDirectory}/.mvn/settings.xml"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\oa718\OneDrive\Desktop\web\taskCloud\target\test-classes;C:\Users\oa718\OneDrive\Desktop\web\taskCloud\target\classes;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\oa718\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\oa718\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\oa718\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\oa718\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\oa718\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\oa718"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="maven.user.conf" value="C:\Users\oa718/.m2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\oa718\OneDrive\Desktop\web\taskCloud"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.project.conf" value="${session.rootDirectory}/.mvn"/>
+    <property name="surefire.real.class.path" value="C:\Users\oa718\AppData\Local\Temp\surefire15876552664713976473\surefirebooter-20251210151204664_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="oa718"/>
+    <property name="maven.installation.conf" value="C:\Users\oa718\apache-maven-4.0.0-rc-3-bin\apache-maven-4.0.0-rc-3/conf"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="maven.installation.toolchains" value="C:\Users\oa718\apache-maven-4.0.0-rc-3-bin\apache-maven-4.0.0-rc-3/conf/toolchains.xml"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.project.extensions" value="${session.rootDirectory}/.mvn/extensions.xml"/>
+    <property name="localRepository" value="C:\Users\oa718\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\oa718\AppData\Local\Temp\"/>
+    <property name="maven.installation.extensions" value="C:\Users\oa718\apache-maven-4.0.0-rc-3-bin\apache-maven-4.0.0-rc-3/conf/extensions.xml"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\oa718\OneDrive\Desktop\web\taskCloud"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\flutter\bin;C:\Users\oa718\AppData\Roaming\npm;&apos;C:\Python310\Scripts;C:\Python310;C:\Program Files\Java\jdk-17\bin;C:\Users\oa718\OneDrive\Desktop\sonarqube-25.4.0.105899\bin;C:\Users\oa718\OneDrive\Desktop\sonar-scanner-5.0.1.3006-windows\bin;C:\Users\oa718\apache-maven-4.0.0-rc-3-bin\apache-maven-4.0.0-rc-3\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\swipl\bin;C:\src\dart-sdk\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\oa718\AppData\Local\Pub\Cache\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\RedHat\Podman\;C:\Program Files\dotnet\;C:\Users\oa718\php-8.5.0-Win32-vs17-x64;C:\flutter\bin;&apos;C:\Python310\Scripts;C:\Python310;C:\Users\oa718\php-8.5.0-Win32-vs17-x64;C:\Program Files\Java\jdk-17\bin;C:\Users\oa718\OneDrive\Desktop\sonarqube-25.4.0.105899\bin;C:\Users\oa718\OneDrive\Desktop\sonar-scanner-5.0.1.3006-windows\bin;C:\Users\oa718\apache-maven-4.0.0-rc-3-bin\apache-maven-4.0.0-rc-3\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\swipl\bin;C:\Program Files\Git\cmd;C:\src\dart-sdk\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\oa718\apache-maven-4.0.0-rc-3-bin\apache-maven-4.0.0-rc-3\bin;C:\Users\oa718\AppData\Local\Microsoft\WindowsApps;C:\Users\oa718\OneDrive\Desktop\sonar-scanner-5.0.1.3006-windows\bin;C:\Users\oa718\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\oa718\.dotnet\tools;C:\Users\oa718\AppData\Roaming\npm;C:\Users\oa718\AppData\Local\Programs\Windsurf\bin;C:\Users\oa718\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\oa718\.dotnet\tools;C:\Users\oa718\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\oa718\AppData\Local\Programs\Kiro\bin;C:\Users\oa718\AppData\Local\Microsoft\WinGet\Links;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="maven.installation.settings" value="C:\Users\oa718\apache-maven-4.0.0-rc-3-bin\apache-maven-4.0.0-rc-3/conf/settings.xml"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.user.settings" value="C:\Users\oa718/.m2/settings.xml"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testDivideByZero" classname="com.example.SimpleCalculatorTest" time="0.021"/>
+  <testcase name="testAdd" classname="com.example.SimpleCalculatorTest" time="0.002"/>
+  <testcase name="testSubtract" classname="com.example.SimpleCalculatorTest" time="0"/>
+  <testcase name="testDivide" classname="com.example.SimpleCalculatorTest" time="0.001"/>
+  <testcase name="testMultiply" classname="com.example.SimpleCalculatorTest" time="0.001"/>
+</testsuite>
