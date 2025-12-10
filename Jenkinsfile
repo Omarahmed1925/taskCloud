@@ -1,26 +1,26 @@
 pipeline {
     agent any
-    
+
     tools {
-        // IMPORTANT: This name 'M3' must match what you set in Jenkins > Manage Jenkins > Tools
-        maven 'M3' 
+        // This forces Jenkins to use the Maven you installed (named 'M3')
+        maven 'M3'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                // This checks out code from your repo automatically
+                // Downloads your code from GitHub
                 checkout scm
             }
         }
 
         stage('Build and Test') {
             steps {
-                // Windows users use 'bat'. If this fails, try 'sh'
-                bat 'mvn clean install' 
+                // uses 'bat' because you are on Windows
+                bat 'mvn clean install'
             }
         }
-        
+
         stage('Test Report') {
             steps {
                 junit 'target/surefire-reports/*.xml'
@@ -28,4 +28,3 @@ pipeline {
         }
     }
 }
-
